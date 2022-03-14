@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 800px;
+    height: 400px;
+
+}
+.header {
+    padding-top: 8px;
+    background-color:#ccc;
+    text-align: center;
+    width: 800px;
+    height: 40px;
+    
+    margin-top: 200px;
+    margin-left: 283px;
+}
+
+.section {
+    padding-top: 1px;
+    display: flex;
+    margin-left: 283px;
+    align-items: center;
+    text-align: center;
+    /*flex-wrap: wrap;*/
+    width: 800px;
+    height: 40px;
+    justify-content: space-evenly;
+    margin-top: 7px;
+    
+}
+
+/*
+}
+.box {
+    width: 266.6px
+}
+*/
+
+.box1 {
+    
+    
+    /*text-align: center;*/
+    background-color: #666;
+    /*margin: auto;*/
+    width: 266.6px;
+    height: 40px;
+ 
+
+}
+
+.box2 {
+    
+    /*border: 1px solid;*/
+    /*text-align: center;*/
+    background-color: #888;
+    width: 266.6px;
+    height: 40px;
+   /*margin: auto;*/
+}
+
+.box3 {
+    
+    /*border: 1px solid;*/
+    /*text-align: center;*/
+    background-color:#666;
+    width: 266.6px;
+    height: 40px;
+}
+
+
+.big{
+    background-color: #eee;
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    height: 120px;
+    margin-left: 283px;
+    align-items: center;
+    position: relative;
+    
+    
+    
+
+    
+}
+
+.box4{
+    
+    text-align: center;
+    background-color: #fff;
+    margin-left: 200px;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -155px;
+    margin-top: -7px;
+    z-index: 2;
+    
+
+}
+
+.box5{
+    
+    text-align: center;
+    background-color: #6ea3da;
+    margin: auto;
+    height: 40px;
+    width: 750px;
+    position: relative;
+    top: -72px;
+    z-index: 1;
+}
+
+.footer {
+    
+    background-color: #ccc;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 800px;
+    margin-left: 283px;
+    padding-top: 11px;
+    margin-top: 7px;
+
+}
